@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--boxicon-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!--main css-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <i class='bx bx-file icon'></i>
+            <h1>RPG GAME</h1>
+            <i class='bx bx-coin icon'></i>
+        </div>
+        <div class="main-side">
+            <div class="side side-close">
+                <h1>Görevler</h1>
+                <div class="görev">
+                    <p>köyün ayak işlerini yap</p>
+                    <button id="1">görev'i al</button>
+                </div>
+                <div class="görev">
+                    <p>av'a çık</p>
+                    <button id="2">görev'i al</button>
+                </div>
+                <div class="görev">
+                    <p>canavar avla</p>
+                    <button id="3">görev'i al</button>
+                </div>
+                <div class="görev">
+                    <p>kralın ayak işlerini yap</p>
+                    <button id="4">görev'i al</button>
+                </div>
+                <div class="görev">
+                    <p>kaleyi savun</p>
+                    <button id="5">görev'i al</button>
+                </div>
+                <h1>Dungeon</h1>
+                <div class="görev">
+                    <p>5 lvl Dungeon</p>
+                    <button id="11">Dungeon'a git</button>
+                </div>
+                <div class="görev">
+                    <p>10 lvl Dungeon</p>
+                    <button id="12">Dungeon'a git</button>
+                </div>
+                <div class="görev">
+                    <p>25 lvl Dungeon</p>
+                    <button id="13">Dungeon'a git</button>
+                </div>
+                <div class="görev">
+                    <p>50 lvl Dungeon</p>
+                    <button id="14">Dungeon'a git</button>
+                </div>
+                <div class="görev">
+                    <p>75 lvl Dungeon</p>
+                    <button id="15">Dungeon'a git</button>
+                </div>
+                <div class="görev">
+                    <p>100 lvl Dungeon</p>
+                    <button id="16">Dungeon'a git</button>
+                </div>
+                <h1>Ana görev</h1>
+                <div class="görev">
+                    <button id="30">Göreve git</button>
+                </div>
+                <h1>Arena</h1>
+                <div class="görev">
+                    <button id="31">Arenaya gir</button>
+                </div>
+            </div>
+            <div class="side side-close">
+                <h1>Mağza</h1>
+                <div class="görev">
+                    <p>Dungeon key</p>
+                    <button id="21">100 altın</button>
+                </div>
+                <div class="görev">
+                    <p>tahta kılıç</p>
+                    <button id="22">100 altın</button>
+                </div>
+                <div class="görev">
+                    <p>başlangıç zırh seti</p>
+                    <button id="23">150 altın</button>
+                </div>
+                <div class="görev">
+                    <p>demir kılıç</p>
+                    <button id="24">200 altın</button>
+                </div>
+                <div class="görev">
+                    <p>demir zırh seti</p>
+                    <button id="25">250 altın</button>
+                </div>
+                <div class="görev">
+                    <p>ejder katili kılıçı</p>
+                    <button id="26">500 altın</button>
+                </div>
+                <div class="görev">
+                    <p>ejderha zırh seti</p>
+                    <button id="27">600 altın</button>
+                </div>
+                <div class="görev">
+                    <p>kutsal kılıç</p>
+                    <button id="28">750 altın</button>
+                </div>
+                <div class="görev">
+                    <p>kutsal zırh seti</p>
+                    <button id="29">1000 altın</button>
+                </div>
+                <div class="görev">
+                    <p>Tanrının Mızrağı</p>
+                    <button id="99">10000 altın</button>
+                </div>
+                <div class="görev">
+                    <p>Tanrının zırh seti</p>
+                    <button id="100">25000 altın</button>
+                </div>
+                <div class="görev">
+                    <p>Gerçek Tanrının Mızrağı</p>
+                    <button id="102">100000 altın</button>
+                </div>
+                <div class="görev">
+                    <p>Gerçek Tanrının zırh seti</p>
+                    <button id="103">250000 altın</button>
+                </div>
+                <div class="görev">
+                    <p>cultivation hapı</p>
+                    <button id="101">100 altın</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <article>
+        <section>
+            <div class="main">
+                <p id="gorev">Lütfen görev şeçiniz ve görev bitmeden çıkmayınız</p>
+                <div>
+                    <h1>Karakter özlelikleri</h1>
+                    <p id="money">money : </p>
+                    <p id="title">title : Yok</p>
+                    <p id="cultivation">iç enerji : 0</p>
+                    <p id=lvl>lvl : </p>
+                    <p id="exp">xp : </p>
+                    <p id="max_exp">max xp : </p>
+                    <h1>Karakter statları</h1>
+                    <p id="hasar">lvl : </p>
+                    <p id="can">xp : </p>
+                    <h1>Karakter eşyaları</h1>
+                    <p id="silah">lvl : </p>
+                    <p id="zırh">xp : </p>
+                    <p id="dungeon_key">dungeon_key : </p>
+                </div>
+            </div>
+        </section>
+        <div id="metin">
+        </div>
+        <img src="" alt="">
+    </article>
+</body>
+<script src="js/app.js"></script>
+</html>
+
+
